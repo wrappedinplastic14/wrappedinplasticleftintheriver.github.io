@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>for a moment everything was blanketed in a beautiful mist of pink and red - untitled
+</title>
+</head>
+<body>
+<h1>for a moment everything was blanketed in a beautiful mist of pink and red - untitled
+</h1>
+
+
+<!-- Album cover -->
+<img src="https://archive.org/download/for-a-moment-everything-was-blanketed-in-a-beautiful-mist-of-pink-and-red-untitled/cover.jpg" alt="album cover">
+
+
+<h2>tracklist</h2>
+<ol>
+<li>untitled (10:00)</li>
+</ol>
+
+
+<!-- Track 1 -->
+<audio controls>
+<source src="https://archive.org/download/mixing-alcohol-with-xanax-untitled/untitled.flac" type="audio/flac">
+</audio>
+
+
+<br>
+
+
+
+<button onclick="window.location.href='home.html'">back to home</button>
+
+</body>
+</html>
