@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>microtektites / siltation - split</title>
+
+<style>
+  .cover-container img {
+    max-width: 450px;
+    cursor: pointer;
+  }
+
+  .cover-text {
+    font-family: sans-serif;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<h1>microtektites / siltation - split</h1>
+
+<div class="cover-container">
+  <img 
+    id="coverImage"
+    src="https://archive.org/download/microtektites-siltation-split/cover.png"
+    alt="album cover"
+    onclick="toggleImage()"
+  >
+  <div class="cover-text">click for alternative cover</div>
+</div>
+
+<h2>tracklist</h2>
+<ol>
+  <li>microtektites - untitled (1:10)</li>
+  <li>siltation - untitled (1:06)</li>
+</ol>
+
+<audio controls>
+  <source src="https://archive.org/download/microtektites-siltation-split/microtektites%20-%20Untitled.mp3" type="audio/mp3">
+</audio>
+
+<br>
+
+<audio controls>
+  <source src="https://archive.org/download/microtektites-siltation-split/Siltation%20-%20Untitled.mp3" type="audio/mp3">
+</audio>
+
+<br>
+
+<button onclick="window.location.href='home.html'">back to home</button>
+
+<script>
+  const image1 = "https://archive.org/download/microtektites-siltation-split/cover.png";
+  const image2 = "https://i.ibb.co/kg37srZ9/Cover.jpg"; 
+
+  let showingFirst = true;
+
+  function toggleImage() {
+    const img = document.getElementById("coverImage");
+    img.src = showingFirst ? image2 : image1;
+    showingFirst = !showingFirst;
+  }
+</script>
+
+</body>
+</html>
